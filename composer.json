@@ -1,0 +1,22 @@
+{
+    "name": "imi/magento2-module-always-swatch-selects",
+    "description": "",
+    "require": {
+        "magento/magento-composer-installer": "*"
+    },
+    "suggest": {
+
+    },
+    "type": "magento2-module",
+    "license": [
+
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "IMI\\AlwaysSwatchSelects\\": ""
+        }
+    }
+}
